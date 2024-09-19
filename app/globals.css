@@ -4,7 +4,7 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
   --color-text-main: #333;
   --color-text-sub: #999;
-  --color-text-unpianted: #fff;
+  --color-text-unpainted: #fff;
   --color-text-error: #f33;
   --color-bg-main: #fff;
   --color-bg-sub: #f3f3f3;
@@ -32,11 +32,8 @@ body {
 
 body {
   font-family: -apple-system, system-ui, -apple-system, BlinkMacSystemFont,
-    "Helvetica Neue", YuGothic,
-    "ヒラギノ角ゴ proN W3",Hiragino Kaku Gothic proN,
-     Arial, 
-     "メイリオ", Miryo, 
-     sans-serif;
+    "Helvetica Neue", YuGothic, "ヒラギノ角ゴ proN W3",
+    Hiragino Kaku Gothic proN, Arial, "メイリオ", Miryo, sans-serif;
   color: var(--color-text-main);
   line-height: 1.8;
 }
