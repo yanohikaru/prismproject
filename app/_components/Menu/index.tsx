@@ -23,7 +23,7 @@ export default function Menu() {
             <Link href="/contact">CONTACT</Link>
           </li>
         </ul>
-        <button className={cx(styles.button, styles, close)} onClick={close}>
+        <button className={cx(styles.button, styles.close)} onClick={close}>
           <Image src="close.svg" alt="close" width={24} height={24} priority />
         </button>
       </nav>
